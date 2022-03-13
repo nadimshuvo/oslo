@@ -3,7 +3,8 @@
         padding-left: 18px;
         padding-right: 18px;
         width: 100%;
-        margin: auto;
+        height: 100%;
+        margin: 0 auto;
         max-width: 320px;
         @mixin atSmall {
             max-width: 530px;
@@ -12,6 +13,11 @@
             max-width: 768px;
         }
         @mixin atLarge {
+            padding-left: 18px;
+            padding-right: 18px;
+            max-width: 1010px;
+        }
+        @mixin atLargest {
             max-width: 1236px;
         }
     }

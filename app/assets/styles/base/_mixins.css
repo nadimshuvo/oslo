@@ -1,25 +1,57 @@
 @define-mixin atSmall {
-  @media (min-width: 530px) {
-    @mixin-content;
-  }
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
 }
 
 @define-mixin atMedium {
-  @media (min-width: 800px) {
-    @mixin-content;
-  }
+    @media (min-width: 800px) {
+        @mixin-content;
+    }
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1010px) {
-    @mixin-content;
-  }
+    @media (min-width: 1010px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLargest {
+    @media (min-width: 1200px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin at $min,
+$max {
+    @media (min-width: $(min)px) and (max-width: $(max)px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+@define-mixin flex $fw:wrap,
+$jc:space-between,
+$ai:center,
+$ac:center {
+    display: flex;
+    flex-wrap: $fw;
+    justify-content: $jc;
+    align-items: $ai;
+    align-content: $ac;
 }
 
 @define-mixin clearfix {
-  &::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }
