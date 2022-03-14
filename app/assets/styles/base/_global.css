@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #333;
 }
 
@@ -19,9 +19,21 @@ img {
 }
 
 a {
-    color: $mainOrange;
     cursor: pointer;
     text-decoration: none;
+}
+
+button {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #111014;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 li {

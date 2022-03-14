@@ -4,10 +4,47 @@
     height: 100vh;
     /* display: grid; */
     @mixin atMedium {
-        background-color: transparent;
-        /* background-image: url("assets/images/background.png"); */
-        background-position: center;
+        background-color: #000;
+    }
+    &2 {
+        background-image: url('assets/images/bg.png');
+        width: 1440px;
+        height: 100vh;
+        margin: 0 auto;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+
+/* main section */
+
+.row {
+    /*  padding-top: 173px; */
+    .left {
+        max-width: 367px;
+        h1 {
+            font-size: 54px;
+            line-height: 80px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+        #contact-us {
+            padding: 16px 32px;
+            border: none;
+            background: #E8183D;
+            border-radius: 50px;
+        }
+    }
+    .right {
+        min-width: 688px;
+        min-height: 508px;
     }
 }

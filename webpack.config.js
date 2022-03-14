@@ -62,7 +62,7 @@ if (currentTask == 'dev') {
             server._watch('./app/**/*.html')
         },
         contentBase: path.join(__dirname, 'app'),
-        hot: true,
+        hot: false,
         port: 3001,
         host: '0.0.0.0'
     }
