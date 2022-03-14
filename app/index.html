@@ -41,6 +41,7 @@
                             <div class="left">
                                 <h1>Estimate your stream cost</h1>
                                 <p>Input your prefrence & get an idea of costing</p>
+                                <!-- JS(Hide/visible) -->
                                 <button id="contact-us">Contact Us</button>
                             </div>
                             <!-- Right Side Form -->
@@ -51,22 +52,32 @@
                                 </div>
                                 <!-- Form Body Section -->
                                 <div class="body">
-                                    <div class="transmission-type">
-                                        <div class="type">
-                                            <h6>TYPE</h6>
-                                            <div class="select">
-                                                <label for="cars">Select type of transmission</label>
-                                                <select id="cars" name="carlist" form="carform">
-                                                    <option value="volvo">Volvo</option>
-                                                    <option value="saab" selected>Saab</option>
-                                                    <option value="opel">Opel</option>
-                                                    <option value="audi">Audi</option>
-                                                </select>
+                                    <!-- Main Transmission type Section (Visible/Hide JS --is-hidden) -->
+                                    <div class="transmission-type wrapper--form">
+                                        <h6>TYPE</h6>
+                                        <div id="cta">
+                                            <div class="select-type">
+                                                <h5>Select type of transmission</h5>
+                                                <img src="assets/images/arrow-down.svg" alt="arrow-down">
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Mobile Version  -->
-                                    <!-- <h6>NUMBER OF PEOPLE</h6>
+                                </div>
+                                <!-- END Main Transmission type Section (Visible/Hide JS) -->
+                                <!-- Select Transmission JS (Hide/Visible) -->
+                                <div class="select-transmission wrapper--form">
+                                    <h2>Type of streamin you want to do</h2>
+                                    <button>Interview</button>
+                                    <button>TV Streaming</button>
+                                    <button>Podcast</button>
+                                    <button>Social Media Live</button>
+                                    <button>Conference</button>
+                                    <button>Product Announcement</button>
+                                </div>
+                                <!-- END Select Transmission JS (Hide/Visible) -->
+
+                                <!-- Mobile Version  -->
+                                <!-- <h6>NUMBER OF PEOPLE</h6>
                                                 <ul>
                                                     <li>1</li>
                                                     <li>2</li>
@@ -119,12 +130,12 @@
                                                 <h4>Questions?</h4>
                                             </div> -->
 
-                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
+        </div>
+        </section>
+        </main>
         </div>
     </section>
 </body>

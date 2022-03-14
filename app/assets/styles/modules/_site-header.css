@@ -19,6 +19,7 @@
         }
         #book-now {
             padding: 17px 37px 17px 38px;
+            background-color: #111014;
             @mixin ss;
             &:hover {
                 background-color: #e8183d;

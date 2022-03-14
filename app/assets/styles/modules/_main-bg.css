@@ -46,13 +46,16 @@
             font-size: 54px;
             line-height: 80px;
             color: #FFFFFF;
+            padding-bottom: 17px;
         }
         p {
             font-size: 16px;
             line-height: 24px;
             color: #FFFFFF;
+            padding-bottom: 32px;
         }
         #contact-us {
+            display: none;
             padding: 16px 32px;
             border: none;
             background: #E8183D;
@@ -61,7 +64,7 @@
     }
     /* Right Side Input Selector Options */
     .right {
-        min-width: 688px;
+        width: 688px;
         min-height: 508px;
         background-color: #FFFFFF;
     }
@@ -85,13 +88,59 @@
 /* transmission-type Main page */
 
 .transmission-type {
-    margin: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #DADADA;
+    display: block;
     h6 {
         font-weight: 700;
         font-size: 12px;
         line-height: 17px;
         color: #151514;
+        padding-bottom: 16px;
+    }
+    h5 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #868686;
+        padding-bottom: 20px;
+    }
+    .select-type {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        border-bottom: 1px solid #DADADA;
+    }
+}
+
+.transmission-type--is-hidden {
+    display: none;
+}
+
+
+/* Select Transmission JS (Hide/Visible) */
+
+.select-transmission {
+    display: none;
+    &--is-visible {
+        display: block;
+        margin-right: 37px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #151514;
+        padding-bottom: 24px;
+    }
+    button {
+        background-color: transparent;
+        color: #151514;
+        padding: 12px 28px;
+        border: 1px solid #868686;
+        margin-bottom: 20px;
+        @mixin ss;
+        &:hover {
+            background-color: #e8183d;
+            color: #fff;
+        }
     }
 }

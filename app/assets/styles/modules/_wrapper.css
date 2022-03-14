@@ -18,6 +18,9 @@
         @mixin atLargest {
             max-width: 1200px;
         }
+        &--form {
+            margin: 40px 40px 0 40px;
+        }
     }
     
     @define-mixin d-flex {

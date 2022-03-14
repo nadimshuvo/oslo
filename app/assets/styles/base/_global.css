@@ -27,8 +27,8 @@ a {
 button {
     font-size: 16px;
     line-height: 20px;
-    background-color: #111014;
     border: 1px solid #FFFFFF;
+    background-color: transparent;
     border-radius: 50px;
     color: white;
     text-align: center;
