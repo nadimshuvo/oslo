@@ -15,23 +15,27 @@
 
 <body>
     <section class="main-bg">
-        <div class="main-bg2">
+        <div class="wrapper">
+            <!-- 2 Background shadows -->
+            <div class="bg-overlay">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+            </div>
             <!-- Header section -->
             <header class="site-header">
-                <div class="wrapper">
-                    <div class="row">
-                        <img src="assets/images/logo.svg" alt="logo">
-                        <a href="#">FAQ</a>
-                        <a href="#">Studios</a>
-                        <a class="last-a" href="#">Contact</a>
-                        <button id="book-now">Book Now</button>
-                    </div>
+                <div class="row">
+                    <img src="assets/images/logo.svg" alt="logo">
+                    <a href="#">FAQ</a>
+                    <a href="#">Studios</a>
+                    <a class="last-a" href="#">Contact</a>
+                    <button id="book-now">Book Now</button>
                 </div>
+
             </header>
             <!-- END Header section -->
             <!-- main Section -->
             <main>
-                <div class="wrapper">
+                <section class="main-content">
                     <div class="container">
                         <div class="row">
                             <div class="left">
@@ -61,64 +65,65 @@
                                     </div>
                                     <!-- Mobile Version  -->
                                     <!-- <h6>NUMBER OF PEOPLE</h6>
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>4</li>
-                                <li>5</li>
-                                <li>6</li>
-                                <li>7</li>
-                                <li>8</li>
-                                <li>9</li>
-                                <li>10</li>
-                            </ul>
-                            <h6>STUDIO</h6>
-                            <select id="cars" name="carlist" form="carform">
-                                <option value="volvo" selected>AVIA, Oslo (Recommended)</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                            <h6>DURATION</h6>
-                            <button>Half Day</button>
-                            <button>Full Day</button>
-                            <div class="options">
-                                <h6>OPTIONS</h6>
-                                <div class="select">
-                                    <img src="assets/images/options-zoom-teams-conference.svg" alt="Zoom Or Teams Conference options">
-                                    <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
-                                    <p><span>1</span>pax</p><button>+</button>
-                                </div>
-                                <div class="select">
-                                    <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
-                                    <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
-                                    <p><span>1</span>pax</p><button>+</button>
-                                </div>
-                                <div class="select">
-                                    <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
-                                    <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
-                                    <p><span>1</span>pax</p><button>+</button>
-                                </div>
-                                <div class="select">
-                                    <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
-                                    <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
-                                    <p><span>1</span>pax</p><button>+</button>
-                                </div>
-                            </div>
-                            <div class="advance-options">
-                                <h4>+ Advance Options</h4>
-                            </div>
-                            <button>Get Written Quote</button>
-                            <h4>Questions?</h4>
-                        </div> -->
+                                                <ul>
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                    <li>5</li>
+                                                    <li>6</li>
+                                                    <li>7</li>
+                                                    <li>8</li>
+                                                    <li>9</li>
+                                                    <li>10</li>
+                                                </ul>
+                                                <h6>STUDIO</h6>
+                                                <select id="cars" name="carlist" form="carform">
+                                                    <option value="volvo" selected>AVIA, Oslo (Recommended)</option>
+                                                    <option value="saab">Saab</option>
+                                                    <option value="opel">Opel</option>
+                                                    <option value="audi">Audi</option>
+                                                </select>
+                                                <h6>DURATION</h6>
+                                                <button>Half Day</button>
+                                                <button>Full Day</button>
+                                                <div class="options">
+                                                    <h6>OPTIONS</h6>
+                                                    <div class="select">
+                                                        <img src="assets/images/options-zoom-teams-conference.svg" alt="Zoom Or Teams Conference options">
+                                                        <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
+                                                        <p><span>1</span>pax</p><button>+</button>
+                                                    </div>
+                                                    <div class="select">
+                                                        <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
+                                                        <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
+                                                        <p><span>1</span>pax</p><button>+</button>
+                                                    </div>
+                                                    <div class="select">
+                                                        <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
+                                                        <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
+                                                        <p><span>1</span>pax</p><button>+</button>
+                                                    </div>
+                                                    <div class="select">
+                                                        <img src="assets/images/options-tv.svg" alt="Zoom Or Teams Conference options">
+                                                        <p>Zoom/Teams Conference</p><img src="assets/images/i.svg" alt="i\"><button>-</button>
+                                                        <p><span>1</span>pax</p><button>+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="advance-options">
+                                                    <h4>+ Advance Options</h4>
+                                                </div>
+                                                <button>Get Written Quote</button>
+                                                <h4>Questions?</h4>
+                                            </div> -->
 
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
             </main>
-            </div>
+        </div>
     </section>
 </body>
 

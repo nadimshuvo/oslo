@@ -1,50 +1,60 @@
+/* Black Background */
+
 .main-bg {
-    /* background-color: lavender; */
     width: 100vw;
     height: 100vh;
-    /* display: grid; */
     @mixin atMedium {
-        background-color: #000;
-    }
-    &2 {
-        background-image: url('assets/images/bg.png');
-        width: 1440px;
-        height: 100vh;
-        margin: 0 auto;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: linear-gradient(90deg, #1B1B1D 52.3%, #111014 47.7%);
     }
 }
 
 
 /* main section */
 
-.row {
-    /*  padding-top: 173px; */
-    .left {
-        max-width: 367px;
-        h1 {
-            font-size: 54px;
-            line-height: 80px;
-            font-weight: 400;
-            color: #FFFFFF;
+.main-content {
+    .row {
+        padding-top: 173px;
+        .left {
+            max-width: 367px;
+            h1 {
+                font-size: 54px;
+                line-height: 80px;
+                font-weight: 400;
+                color: #FFFFFF;
+            }
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 400;
+                color: #FFFFFF;
+            }
+            #contact-us {
+                padding: 16px 32px;
+                border: none;
+                background: #E8183D;
+                border-radius: 50px;
+            }
         }
-        p {
-            font-size: 16px;
-            line-height: 24px;
-            font-weight: 400;
-            color: #FFFFFF;
-        }
-        #contact-us {
-            padding: 16px 32px;
-            border: none;
-            background: #E8183D;
-            border-radius: 50px;
+        .right {
+            min-width: 688px;
+            min-height: 508px;
         }
     }
-    .right {
-        min-width: 688px;
-        min-height: 508px;
+}
+
+.bg-overlay {
+    position: fixed;
+    display: flex;
+    .line-1 {
+        width: 1px;
+        margin-left: 131px;
+        height: 100vh;
+        background: #3F3F3F;
+    }
+    .line-2 {
+        width: 1px;
+        margin-left: 245px;
+        height: 100vh;
+        background: #3F3F3F;
     }
 }
