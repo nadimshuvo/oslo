@@ -9,38 +9,7 @@
 }
 
 
-/* main section */
-
-.main-content {
-    .row {
-        padding-top: 173px;
-        .left {
-            max-width: 367px;
-            h1 {
-                font-size: 54px;
-                line-height: 80px;
-                font-weight: 400;
-                color: #FFFFFF;
-            }
-            p {
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                color: #FFFFFF;
-            }
-            #contact-us {
-                padding: 16px 32px;
-                border: none;
-                background: #E8183D;
-                border-radius: 50px;
-            }
-        }
-        .right {
-            min-width: 688px;
-            min-height: 508px;
-        }
-    }
-}
+/* <!-- 2 Background shadows --> */
 
 .bg-overlay {
     position: fixed;
@@ -56,5 +25,73 @@
         margin-left: 245px;
         height: 100vh;
         background: #3F3F3F;
+    }
+}
+
+
+/* main section */
+
+.main-content {
+    position: relative;
+    z-index: 1;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding-top: calc(173px - 88px);
+    }
+    /* Left Side Main H1 */
+    .left {
+        max-width: 367px;
+        h1 {
+            font-size: 54px;
+            line-height: 80px;
+            color: #FFFFFF;
+        }
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        #contact-us {
+            padding: 16px 32px;
+            border: none;
+            background: #E8183D;
+            border-radius: 50px;
+        }
+    }
+    /* Right Side Input Selector Options */
+    .right {
+        min-width: 688px;
+        min-height: 508px;
+        background-color: #FFFFFF;
+    }
+    .head {
+        padding: 40px;
+        border-bottom: 1px solid #DADADA;
+        h2 {
+            font-size: 34px;
+            line-height: 54px;
+            color: #111014;
+        }
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #5B2222;
+        }
+    }
+}
+
+
+/* transmission-type Main page */
+
+.transmission-type {
+    margin: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DADADA;
+    h6 {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        color: #151514;
     }
 }

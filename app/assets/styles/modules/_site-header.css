@@ -1,5 +1,7 @@
 .site-header {
     padding-top: 20px;
+    position: relative;
+    z-index: 1;
     .row {
         @mixin d-flex;
         justify-content: flex-end;
@@ -17,6 +19,10 @@
         }
         #book-now {
             padding: 17px 37px 17px 38px;
+            @mixin ss;
+            &:hover {
+                background-color: #e8183d;
+            }
         }
     }
 }

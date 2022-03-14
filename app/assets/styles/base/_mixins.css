@@ -37,6 +37,10 @@ $max {
     align-content: center;
 }
 
+@define-mixin ss {
+    transition: all .3s ease-in-out;
+}
+
 @define-mixin flex $fw:wrap,
 $jc:space-between,
 $ai:center,
