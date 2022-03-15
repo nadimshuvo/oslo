@@ -1,0 +1,29 @@
+.number-select {
+    .button-box {
+        display: flex;
+        column-gap: 12px;
+        padding: 24px 0;
+    }
+    h6 {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        color: #151514;
+    }
+    button {
+        border: 1px solid #B2B2B3;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #3F3F3F;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: all .3;
+        &:focus,
+        &:hover {
+            background-color: #e8183d;
+            color: #fff;
+        }
+    }
+}
