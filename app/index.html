@@ -36,48 +36,99 @@
             <!-- main Section -->
             <main>
                 <section class="main-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="left">
-                                <h1>Estimate your stream cost</h1>
-                                <p>Input your prefrence & get an idea of costing</p>
-                                <!-- JS(Hide/visible) -->
-                                <button id="contact-us">Contact Us</button>
+                    <div class="row">
+                        <div class="left">
+                            <h1>Estimate your stream cost</h1>
+                            <p>Input your prefrence & get an idea of costing</p>
+                            <!-- JS(Hide/visible) -->
+                            <button id="contact-us">Contact Us</button>
+                        </div>
+                        <!-- Right Side Form -->
+                        <div class="right">
+                            <div class="head">
+                                <h2>Kr. 0 ex. VAT</h2>
+                                <p>What’s included?</p>
                             </div>
-                            <!-- Right Side Form -->
-                            <div class="right">
-                                <div class="head">
-                                    <h2>Kr. 0 ex. VAT</h2>
-                                    <p>What’s included?</p>
-                                </div>
-                                <!-- Form Body Section -->
-                                <div class="body">
-                                    <!-- Main Transmission type Section (Visible/Hide JS --is-hidden) -->
-                                    <div class="transmission-type wrapper--form">
-                                        <h6>TYPE</h6>
-                                        <div id="cta">
-                                            <div class="select-type">
-                                                <h5>Select type of transmission</h5>
-                                                <img src="assets/images/arrow-down.svg" alt="arrow-down">
-                                            </div>
+                            <!-- Form Body Section -->
+                            <div class="body">
+                                <!-- Main Transmission type Section (Visible/Hide JS --is-hidden) -->
+                                <div class="transmission-type--is-hidden wrapper--form">
+                                    <h6>TYPE</h6>
+                                    <div id="cta">
+                                        <div class="select-type">
+                                            <h5>Select type of transmission</h5>
+                                            <img src="assets/images/arrow-down.svg" alt="arrow-down">
                                         </div>
                                     </div>
                                 </div>
-                                <!-- END Main Transmission type Section (Visible/Hide JS) -->
-                                <!-- Select Transmission JS (Hide/Visible) -->
-                                <div class="select-transmission wrapper--form">
-                                    <h2>Type of streamin you want to do</h2>
-                                    <button>Interview</button>
-                                    <button>TV Streaming</button>
-                                    <button>Podcast</button>
-                                    <button>Social Media Live</button>
-                                    <button>Conference</button>
-                                    <button>Product Announcement</button>
-                                </div>
-                                <!-- END Select Transmission JS (Hide/Visible) -->
+                            </div>
+                            <!-- END Main Transmission type Section (Visible/Hide JS) -->
+                            <!-- Select Transmission JS (Hide/Visible) -->
+                            <div class="select-transmission wrapper--form">
+                                <h2>Type of streamin you want to do</h2>
+                                <button>Interview</button>
+                                <button>TV Streaming</button>
+                                <button>Podcast</button>
+                                <button>Social Media Live</button>
+                                <button>Conference</button>
+                                <button>Product Announcement</button>
+                            </div>
+                            <!-- END Select Transmission JS (Hide/Visible) -->
+                            <!-- <div class="wrapper--form">
+                                    <select name="" id="select">
+                                        <option selected value="Interview">Interview</option>
+                                        <option value="TV Streaming">TV Streaming</option>
+                                        <option value="Podcast">Podcast</option>
+                                        <option value="Social Media Live">Social Media Live</option>
+                                        <option value="Conference">Conference</option>
+                                        <option value="Product Announcement">Product Announcement</option>
+                                    </select>
+                                </div> -->
 
-                                <!-- Mobile Version  -->
-                                <!-- <h6>NUMBER OF PEOPLE</h6>
+                            <!-- input type Radio -->
+                            <div class="container-select-box">
+                                <h6>Type</h6>
+
+                                <div class="select-box">
+                                    <div class="options-container">
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="interview" name="category" />
+                                            <label for="interview">Interview</label>
+                                        </div>
+
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="tvStreaming" name="category" />
+                                            <label for="tvStreaming">TV Streaming</label>
+                                        </div>
+
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="podcast" name="category" />
+                                            <label for="podcast">Podcast</label>
+                                        </div>
+
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="socialMediaLive" name="category" />
+                                            <label for="socialMediaLive">Social Media Live</label>
+                                        </div>
+
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="conference" name="category" />
+                                            <label for="conference">Conference</label>
+                                        </div>
+
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="productAnnouncement" name="category" />
+                                            <label for="productAnnouncement">Product Announcement</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="selected">
+                                        Select type of transmission
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Version  -->
+                            <!-- <h6>NUMBER OF PEOPLE</h6>
                                                 <ul>
                                                     <li>1</li>
                                                     <li>2</li>
@@ -130,9 +181,9 @@
                                                 <h4>Questions?</h4>
                                             </div> -->
 
-                            </div>
                         </div>
                     </div>
+
         </div>
         </section>
         </main>
