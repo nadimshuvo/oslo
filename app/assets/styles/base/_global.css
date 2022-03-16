@@ -8,6 +8,21 @@ body {
     color: #333;
 }
 
+body::-webkit-scrollbar {
+    width: 5px;
+    background: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #E8183D;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+/* * {
+    outline: solid 1px red;
+} */
+
 img {
     max-width: 100%;
     height: auto;

@@ -1,0 +1,35 @@
+.container-duration {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    color: #151514;
+    .duration-select-box {
+        padding-top: 24px;
+        padding-bottom: 35px;
+    }
+    input {
+        appearance: none;
+        display: none;
+    }
+    input[type='radio']:checked+label {
+        background-color: #e8183d;
+        color: #fff;
+    }
+    label {
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        padding: 12px 28px;
+        border: 1px solid #868686;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #151514;
+        border-radius: 50px;
+        transition: all .3;
+        &:hover {
+            background-color: #e8183d;
+            color: #fff;
+        }
+    }
+}

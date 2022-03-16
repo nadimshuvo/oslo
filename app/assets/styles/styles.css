@@ -7,3 +7,5 @@
 @import "modules/_site-header";
 @import "modules/_select-box.css";
 @import "modules/_number-select.css";
+@import "modules/_studio-select.css";
+@import "modules/_duration-select.css";

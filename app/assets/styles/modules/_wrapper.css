@@ -1,5 +1,5 @@
     .wrapper {
-        overflow: hidden;
+        overflow-x: hidden;
         padding-left: 20px;
         padding-right: 20px;
         width: 100%;
